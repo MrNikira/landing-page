@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: robotoBold;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: robotoThin;
+    src: url(./fonts/Roboto-Thin.ttf);
+}
+
 .header-container {
     background-color: #1f2937;
 }
@@ -11,9 +21,12 @@
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-family: robotoBold;
+    
 }
 
 .header-links {
     font-size: 18px;
     color: #f9faf8;
+    font-family: robotoThin;
 }
