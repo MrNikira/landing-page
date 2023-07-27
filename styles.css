@@ -35,3 +35,30 @@
     font-family: robotoLight;
     gap: 20px;
 }
+
+.hero-container {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 150px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
