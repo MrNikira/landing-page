@@ -14,6 +14,11 @@
     src: url(./fonts/Roboto-Light.ttf);
 }
 
+@font-face {
+    font-family: robotoExtraBold;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
 .header-container {
     background-color: #1f2937;
     display: flex;
@@ -57,9 +62,11 @@
 .hero-main {
     font-size: 48px;
     color: #f9faf8;
+    font-family: robotoExtraBold;
 }
 
 .hero-secondary, .img-placeholder {
+    font-family: robotoLight;
     font-size: 18px;
     color: #f9faf8;
 }
