@@ -64,3 +64,12 @@
     font-size: 18px;
     font-family: robotoLight;
 }
+
+.sign-up {
+    font-family: robotoExtraBold;
+    font-size: 18px;
+    background-color: #3882f6;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
