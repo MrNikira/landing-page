@@ -48,14 +48,29 @@
     padding: 150px;
 }
 
+.right-section {
+    display: flex;
+    align-self: center;
+    padding-right: 150px;
+}
+
 .hero-main {
     font-size: 48px;
     color: #f9faf8;
 }
 
-.hero-secondary {
+.hero-secondary, .img-placeholder {
     font-size: 18px;
     color: #f9faf8;
+}
+
+.img-placeholder {
+    display: flex;
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up-button {
