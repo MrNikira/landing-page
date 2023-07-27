@@ -10,12 +10,15 @@
 }
 
 @font-face {
-    font-family: robotoThin;
-    src: url(./fonts/Roboto-Thin.ttf);
+    font-family: robotoLight;
+    src: url(./fonts/Roboto-Light.ttf);
 }
 
 .header-container {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .header-logo {
@@ -26,7 +29,9 @@
 }
 
 .header-links {
+    display: flex;
     font-size: 18px;
     color: #f9faf8;
-    font-family: robotoThin;
+    font-family: robotoLight;
+    gap: 20px;
 }
