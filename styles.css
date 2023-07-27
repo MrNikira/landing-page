@@ -44,12 +44,23 @@
     color: #f9faf8;
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .hero {
-    width: 900px;
-    height: 300px;
+    width: 450px;
+    height: 400px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-family: robotoExtraBold;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    font-family: robotoLight;
 }
