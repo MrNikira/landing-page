@@ -39,3 +39,17 @@
     font-family: robotoLight;
     gap: 20px;
 }
+
+.hero-container {
+    color: #f9faf8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
