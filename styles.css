@@ -20,6 +20,7 @@
 }
 
 .header-container {
+    border: 1px solid red;
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
@@ -27,32 +28,37 @@
 }
 
 .header-logo {
+    border: 1px solid red;
     font-size: 24px;
     color: #f9faf8;
     font-family: robotoBold;
 }
 
 .header-links {
+    border: 1px solid red;
     display: flex;
     font-size: 18px;
     color: #f9faf8;
-    font-family: robotoLight;
     gap: 20px;
+    font-family: robotoLight;
 }
 
 .hero-container {
     color: #f9faf8;
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    border: 1px solid red;
 }
 
-.hero {
+.hero-left {
     width: 450px;
     height: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 20px;
+    border: 1px solid red;
 }
 
 .hero-main {
@@ -72,4 +78,19 @@
     width: 100px;
     padding: 10px;
     border-radius: 5px;
+}
+
+.img-placeholder {
+    background-color: grey;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
 }
