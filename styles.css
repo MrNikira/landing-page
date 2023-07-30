@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: robotoExtraBold;
-    src: url(./fonts/Roboto-Bold.ttf);
+    src: url(./fonts/Roboto-Medium.ttf);
 }
 
 .container {
@@ -90,7 +90,7 @@
     width: 135px;
     height: 35px;
     border-radius: 5px;
-    text-align: center; 
+    text-align: center;
     line-height: 35px;
 }
 
@@ -108,4 +108,45 @@
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
+}
+
+.random-container {
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.box-container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.box {
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.random-title {
+    font-size: 36px;
+    font-family: robotoBold;
+    margin-top: 50px;
+}
+
+.box-text {
+    font-family: robotoLight;
+    text-align: center;
+    margin-top: 10px;
 }
