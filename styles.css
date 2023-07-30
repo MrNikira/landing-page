@@ -20,10 +20,10 @@
 }
 
 .container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    width: 1400px;
     margin: auto;
 }
 
@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    padding: 0 60px;
+    padding: 0 200px;
 }
 
 .header-logo {
@@ -58,16 +58,17 @@
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0 200px;
+    height: 400px;
+
     /* border: 1px solid red; */
 }
 
 .hero-left {
-    width: 350px;
-    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 15px;
     /* border: 1px solid red; */
 }
 
@@ -78,16 +79,19 @@
 
 .hero-secondary {
     font-size: 18px;
-    font-family: robotoLight;
+    font-family: robotoBold;
 }
 
-.sign-up {
-    font-family: robotoExtraBold;
+.sign-up-button {
+    font-family: robotoBold;
     font-size: 18px;
+    color: #f9faf8;
     background-color: #3882f6;
-    width: 100px;
-    padding: 10px;
+    width: 135px;
+    height: 35px;
     border-radius: 5px;
+    text-align: center; 
+    line-height: 35px;
 }
 
 .img-placeholder {
