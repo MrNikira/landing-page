@@ -95,6 +95,7 @@
 }
 
 .img-placeholder {
+    font-family: robotoBold;
     background-color: grey;
     width: 500px;
     height: 250px;
