@@ -19,6 +19,11 @@
     src: url(./fonts/Roboto-Medium.ttf);
 }
 
+@font-face {
+    font-family: robotoLightItalic;
+    src: url(./fonts/Roboto-LightItalic.ttf);
+}
+
 .container {
     /* border: 1px solid red; */
     display: flex;
@@ -149,4 +154,32 @@
     font-family: robotoLight;
     text-align: center;
     margin-top: 10px;
+}
+
+.quote-container {
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    padding-top: 130px;
+    width: 750px;
+    font-size: 36px;
+    font-family: robotoLightItalic;
+}
+
+.source {
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid #000; */
+    width: 750px;
+    font-family: robotoBold;
+    font-size: 26px;
 }
